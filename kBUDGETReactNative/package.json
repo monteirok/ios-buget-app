@@ -1,0 +1,36 @@
+{
+  "name": "kbudget-react-native",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo run:ios",
+    "android": "expo run:android",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^8.1.1",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.22",
+    "expo": "^51.0.0",
+    "expo-notifications": "~0.27.0",
+    "expo-sqlite": "~15.0.0",
+    "expo-status-bar": "^1.12.0",
+    "react": "18.2.0",
+    "react-native": "0.74.0",
+    "react-native-gesture-handler": "^2.14.1",
+    "react-native-reanimated": "^3.8.0",
+    "react-native-safe-area-context": "^4.9.0",
+    "react-native-screens": "^3.31.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@react-native-community/eslint-config": "^9.0.0",
+    "@types/react": "^18.2.66",
+    "@types/react-native": "^0.73.0",
+    "babel-preset-expo": "^10.0.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.0"
+  }
+}

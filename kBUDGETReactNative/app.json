@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "kBUDGET",
+    "slug": "kbudget",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101514"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kbudget.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#101514"
+      },
+      "package": "com.kbudget.app"
+    },
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-sqlite",
+        {
+          "webAssembly": false
+        }
+      ]
+    ]
+  }
+}
